@@ -35,8 +35,9 @@ const Header = ({ setDarkMode, darkMode }: HeaderProps) => {
       // Update active section based on scroll position
       const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
+        const htmlElement = section as HTMLElement; // Cast to HTMLElement
+        const sectionTop = htmlElement.offsetTop - 100;
+        const sectionHeight = htmlElement.offsetHeight;
         const sectionId = section.getAttribute('id') || '';
 
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
