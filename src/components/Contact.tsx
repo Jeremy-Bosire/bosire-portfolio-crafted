@@ -21,7 +21,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email</p>
-                  <p className="text-white font-medium">contact@benuelbosire.com</p>
+                  <p className="text-white font-medium">bbenuel@gmail.com</p>
                 </div>
               </div>
               
@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Phone</p>
-                  <p className="text-white font-medium">+254 (0) 700 000000</p>
+                  <p className="text-white font-medium">+254 (0) 721 573888</p>
                 </div>
               </div>
               
@@ -42,7 +42,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-gray-400">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/" 
+                    href="https://www.linkedin.com/in/benuelbosire/" 
                     className="text-white font-medium hover:text-gold flex items-center"
                     target="_blank"
                     rel="noopener noreferrer"
