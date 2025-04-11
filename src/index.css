@@ -9,6 +9,10 @@
     --gold: #FCA311;
     --lightgray: #F5F5F5;
   }
+  
+  html {
+    scroll-padding-top: 80px; /* Adds padding for anchor links to account for fixed header */
+  }
 }
 
 @layer components {
@@ -65,4 +69,5 @@ section {
   width: 100%;
   position: relative;
   overflow: hidden;
+  padding-top: 1rem;
 }
